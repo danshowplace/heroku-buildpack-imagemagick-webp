@@ -21,7 +21,7 @@ RUN curl -L https://github.com/strukturag/libde265/releases/download/v$LIBDE265_
   && make install
 
 # https://github.com/strukturag/libheif/releases
-ENV LIBHIEF_VERSION=1.19.5
+ENV LIBHIEF_VERSION=1.15.2
 
 RUN curl -L https://github.com/strukturag/libheif/releases/download/v$LIBHIEF_VERSION/libheif-$LIBHIEF_VERSION.tar.gz | tar zx \
   && cd libheif-$LIBHIEF_VERSION \
